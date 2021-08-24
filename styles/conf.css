@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Variáveis */
+html {
+  --black: #000;
+  --white: #fafafa;
+  --green: #1bf59e;
+
+  /* 1rem = 16px (User Agent) -- numero em px dividido por 16 = n em rem */
+  /* 1rem = 16px (User Agent) = 100% */
+  font-size: 62.5%; /* setando o valor em 10px */
+}
