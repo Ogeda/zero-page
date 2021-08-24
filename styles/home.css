@@ -74,6 +74,28 @@ main {
   color: var(--black);
 }
 
+/* FOOTER */
+
+footer {
+  background: var(--black);
+  height: 40rem;
+  color: var(--white);
+
+  text-align: center;
+  margin-top: 7.5rem;
+}
+
+.h4Footer {
+  font: normal 700 3rem/4.5rem "Poppins", sans-serif;
+  margin-top: 2.4rem;
+}
+
+.textFooter {
+  font: normal 400 2.4rem/3.6rem "Montserrat", sans-serif;
+  margin-top: 2.4rem;
+  display: block;
+}
+
 /*
 main .container {
   width: min(36.3rem, 100%);
