@@ -2,3 +2,34 @@
 .menu-bg {
   background: var(--black);
 }
+
+.content-menu {
+  padding-top: 60px;
+}
+
+.menu-bg {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bg nav a {
+  font: normal 700 16px/21px "Mulish", sans-serif;
+  color: #fff;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font: normal 700 40px/48px "Poppins", sans-serif;
+  color: #fff;
+  margin-top: 100px;
+}
