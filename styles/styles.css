@@ -26,7 +26,7 @@
 }
 
 .banner {
-  height: 80vh;
+  /* height: 80vh; */
   color: #fff;
 }
 
@@ -68,6 +68,10 @@
   margin: 20px auto;
 }
 
+.container-botao {
+  margin-bottom: 150px;
+}
+
 main {
   max-width: 1180px;
   margin: 0 auto;
@@ -94,7 +98,7 @@ main {
   max-width: 477px;
 }
 
-.container-textos {
+.entenda .container-textos {
   display: flex;
   flex-direction: column;
   justify-content: center;
