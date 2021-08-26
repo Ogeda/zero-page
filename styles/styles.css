@@ -5,6 +5,7 @@
 
 .content-menu {
   padding-top: 60px;
+  max-height: 600px;
 }
 
 .menu-bg {
@@ -25,19 +26,93 @@
 }
 
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 100px;
   height: 80vh;
   color: #fff;
 }
 
+.container-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
 .banner-titulo {
-  max-width: 318px;
+  width: 318px;
+}
+
+.banner-texto {
+  width: 420px;
+  margin-top: 20px;
 }
 
 .banner-titulo .titulo-banner {
   font: normal 700 40px/48px "Poppins", sans-serif;
+}
+
+.banner-texto .texto-banner {
+  font: normal 600 18px/28px "Mulish", sans-serif;
+}
+
+.container-botao .botao {
+  background: #1bf59e;
+  padding: 24px 61px;
+  border-radius: 10px;
+  font: normal 800 20px/25px "Mulish", sans-serif;
+  text-align: center;
+  color: #fff;
+  max-width: 392px;
+  display: block;
+  margin: 20px auto;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.container-controleSimples {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.controleSimples-titulo .titulo-controleSimples {
+  font: normal 700 56px/60px "Poppins", sans-serif;
+  max-width: 502px;
+}
+
+.controleSimples-texto {
+  margin-top: 16px;
+}
+
+.controleSimples-texto .texto-controleSimples {
+  font: normal 600 18px/28px "Mulish", sans-serif;
+  max-width: 477px;
+}
+
+.container-textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.entenda-titulo .titulo-entenda {
+  font: normal 700 40px/48px "Poppins", sans-serif;
+  max-width: 598px;
+}
+
+.entenda-texto {
+  margin-top: 25px;
+}
+
+.entenda-texto .texto-entenda {
+  font: normal 600 18px/28px "Mulish", sans-serif;
+  max-width: 752px;
 }
