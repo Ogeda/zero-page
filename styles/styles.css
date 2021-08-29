@@ -62,7 +62,7 @@
   border-radius: 10px;
   font: normal 800 20px/25px "Mulish", sans-serif;
   text-align: center;
-  color: #fff;
+  color: var(--black);
   max-width: 392px;
   display: block;
   margin: 20px auto;
@@ -174,20 +174,26 @@ main {
 
 footer {
   background: var(--black);
-  height: 40rem;
+  height: 400px;
   color: var(--white);
-
-  text-align: center;
-  margin-top: 7.5rem;
+  margin-top: 140px;
 }
 
-.h4Footer {
-  font: normal 700 3rem/4.5rem "Poppins", sans-serif;
-  margin-top: 2.4rem;
+.container-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 75px;
 }
 
-.textFooter {
-  font: normal 400 2.4rem/3.6rem "Montserrat", sans-serif;
-  margin-top: 2.4rem;
-  display: block;
+.titulo-footer {
+  font: normal 700 30px/45px "Poppins", sans-serif;
+  margin-top: 25px;
+}
+
+.texto-footer {
+  font: normal 400 24px/36px "Montserrat", sans-serif;
+  letter-spacing: -2px;
+  margin-top: 8px;
 }
