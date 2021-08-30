@@ -72,6 +72,8 @@
   margin-bottom: 150px;
 }
 
+/* MAIN */
+
 main {
   max-width: 1180px;
   margin: 0 auto;
@@ -98,13 +100,15 @@ main {
   max-width: 477px;
 }
 
+/* SECTION ENTENDA */
+
 .entenda .container-textos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
   text-align: center;
+  margin-top: 150px;
 }
 
 .entenda-titulo .titulo-entenda {
@@ -118,7 +122,7 @@ main {
 
 .entenda-texto .texto-entenda {
   font: normal 600 18px/28px "Mulish", sans-serif;
-  max-width: 752px;
+  max-width: 700px;
 }
 
 .container-icon {
@@ -128,22 +132,14 @@ main {
   text-align: center;
   margin-top: 80px;
   max-height: 462px;
-}
-
-.box-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  max-width: 314px;
-  max-height: 462px;
+  border: 1px #1bf59e solid;
 }
 
 .titulo-icon {
   font: normal 700 28px/36px "Poppins", sans-serif;
   max-width: 314px;
   margin-top: 40px;
+  border: 1px red solid;
 }
 
 .texto-icon {
@@ -151,6 +147,8 @@ main {
   max-width: 277px;
   margin-top: 25px;
 }
+
+/* SECTION CONQUISTETUDO */
 
 .container-conquisteTudo {
   display: flex;
