@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
 }
 
 .menu-bg nav a {
@@ -83,6 +84,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 150px;
 }
 
@@ -167,6 +169,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 140px;
 }
 
@@ -207,4 +210,53 @@ footer {
   font: normal 400 24px/36px "Montserrat", sans-serif;
   letter-spacing: -2px;
   margin-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .container-controleSimples {
+    padding: 0 20px;
+    flex-wrap: nowrap;
+  }
+
+  .container-textos {
+    margin: 0 20px 0;
+  }
+
+  .controleSimples-titulo {
+    font: normal 700 40px/48px "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-controleSimples {
+    padding: 0 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container-controleSimples img {
+    order: 2;
+  }
+
+  .container-textos {
+    margin: 0 20px 40px;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .controleSimples-titulo {
+    font: normal 700 40px/48px "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 550px) {
+  .titulo-footer,
+  .texto-footer {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .container-botao {
+    padding: 0 10px;
+  }
 }
