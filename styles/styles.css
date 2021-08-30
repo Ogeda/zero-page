@@ -125,27 +125,40 @@ main {
   max-width: 700px;
 }
 
-.container-icon {
+.entenda .container-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   margin-top: 80px;
-  max-height: 462px;
-  border: 1px #1bf59e solid;
+  /* border: 1px #1bf59e solid; */
+}
+
+.entenda .box-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  margin: 0 auto;
+}
+
+.entenda .box-icon img {
+  align-self: center;
 }
 
 .titulo-icon {
   font: normal 700 28px/36px "Poppins", sans-serif;
   max-width: 314px;
   margin-top: 40px;
-  border: 1px red solid;
+  /* border: 1px red solid; */
+  align-self: center;
 }
 
 .texto-icon {
   font: normal 600 18px/28px "Mulish", sans-serif;
   max-width: 277px;
   margin-top: 25px;
+  align-self: center;
 }
 
 /* SECTION CONQUISTETUDO */
