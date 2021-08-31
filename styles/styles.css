@@ -80,6 +80,12 @@ main {
   margin: 0 auto;
 }
 
+/* CONTROLE SIMPLES */
+
+.containerSimples {
+  border: 1px #1bf59e solid;
+}
+
 .container-controleSimples {
   display: flex;
   justify-content: space-between;
@@ -104,7 +110,7 @@ main {
 
 /* SECTION ENTENDA */
 
-.entenda .container-textos {
+.entenda .container-textos-entenda {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,7 +139,6 @@ main {
   align-items: center;
   text-align: center;
   margin-top: 80px;
-  /* border: 1px #1bf59e solid; */
 }
 
 .entenda .box-icon {
@@ -152,7 +157,6 @@ main {
   font: normal 700 28px/36px "Poppins", sans-serif;
   max-width: 314px;
   margin-top: 40px;
-  /* border: 1px red solid; */
   align-self: center;
 }
 
@@ -218,8 +222,8 @@ footer {
     flex-wrap: nowrap;
   }
 
-  .container-textos {
-    margin: 0 20px 0;
+  .container-textos-controSimples {
+    padding: 0 20px;
   }
 
   .controleSimples-titulo {
@@ -227,7 +231,10 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 965px) {
+  .container-textos-controSimples {
+  }
+
   .container-controleSimples {
     padding: 0 20px;
     justify-content: center;
